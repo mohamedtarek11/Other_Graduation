@@ -1,0 +1,224 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.login{
+    padding-top: 50px ;
+    /* padding-bottom: 30px; */
+    background:linear-gradient(120deg,#ffffff94,#ffffffd2), url("../images/login.jpg");
+    background-repeat: no-repeat;
+    background-size: cover ;
+    height: 100vh;
+    width: 100%;
+}
+.customforms{
+    background-color: hsl(0, 0%, 100%);
+    padding: 80px 80px;
+    /* border-radius:  0px 137px 137px 0px; */
+}
+.customforms .text{
+    font-weight: 600;
+    font-size: 30px;
+}
+/* 
+  
+*/
+.beforone{
+    color: #EFA220 ;
+}
+.sselect{
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.icon{
+    position: relative;
+    top: 30px;
+    display: block;  
+    width: 26px;
+    margin-left: auto;
+    z-index: 111;
+}
+
+.loginorregister {
+   text-align: center;
+   padding-bottom: 20px; 
+}
+.loginorregister .spanone{
+    background-color: #E4F1FF !important;
+    height: 48px;
+    margin-left: auto; 
+    box-shadow: none !important;
+    border-radius: 25px 25px 25px 25px;
+    font-size: 20px;
+    padding: 6px 17px 2px 26px;
+   /* margin-bottom: 20px;  */
+
+}
+
+.loginorregister .spanone span,.loginorregister .spantwo span{
+    color:#E4F1FF !important;
+
+}
+.loginorregister .spantwo{
+    background-color: #E4F1FF !important;
+    height: 48px;
+    margin-left: auto; 
+    position: relative;
+    right: 5px;
+    box-shadow: none !important;
+    padding: 6px 17px 2px 26px;
+    border-radius:  25px 25px  25px 25px;
+    font-size: 20px;
+
+    
+
+}
+input{
+    
+ margin-left: auto !important;    
+box-shadow: none !important;
+outline: none !important;
+/* border-color: #fff !important; */
+}
+.submit{
+    padding: 10px 2px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #0E63F4 !important;
+    color: #F7F9FE !important;
+    font-weight: 600;
+    font-size: 19px;
+    width: 60%;
+}
+.welor{
+   width: 70%;  
+    text-align: center;
+    /* background-color: #0E63F4; */
+    margin-left: auto;
+    margin-right: auto;
+} 
+.images{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+
+}
+.images img{
+    
+    max-width: 13% !important;
+    margin-left: 15px;
+    border-radius: 50%;
+
+}
+.images .imgface{
+    max-width: 11% !important;
+
+}
+
+
+
+.textsign {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+.textsign h5{
+    color: #8A9EAD;
+}
+.textsign a{
+    margin-left: 10px;
+    text-decoration: none;
+    color: #122F53;
+}
+
+@media only screen and (max-width:768px){
+    
+    .welor .sone {
+        width: 20%;
+        padding: 2px;
+    }
+    }  
+
+
+    body{
+        font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    }
+    .login{
+        padding-top: 10px ;
+        padding-bottom: 12px;
+        background:linear-gradient(120deg,#ffffffd8,#ffffffd2), url("../images/login.jpg");
+        background-repeat: no-repeat;
+        background-size: cover ;
+        width: 100%;
+        height: 100vh;
+    }
+    
+    .customforms{
+        background-color: hsl(0, 0%, 100%);
+        padding: 22px 55px;
+         border-radius: 10px;
+    }
+    .customforms .text{
+        font-weight: 600;
+    }
+    .loginorregister {
+       text-align: center;
+       padding-bottom: 20px; 
+    }
+    .loginorregister .spantwo{
+        background-color: #F7F9FE !important;
+        border-color: black;
+        box-shadow: none;
+        width: 42%;
+    }
+    .spanone{
+        width: 45%;
+        
+    }
+    input{
+        
+     margin-left: auto !important;    
+    box-shadow: none !important;
+    outline: none !important;
+    
+    }
+    .submit{
+        width: 100% !important;
+        background-color: #24CAC0 !important;
+        color: #F7F9FE !important;
+        font-size: 20px;
+    }
+    
+    .loginorregister .active{
+         background-color: #24CAC0 !important; 
+         color: #FFFFFF;
+    }
+    .well{
+        color: #122F53;
+    }
+    /* //////////////////////////////////////// */
+    .pass{
+        position: relative;
+    }
+    
+    .icon{
+        position: absolute;
+        top: 32px;
+        right: 5px;
+    }

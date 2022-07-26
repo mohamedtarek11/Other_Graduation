@@ -1,0 +1,293 @@
+body {
+    font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Rubik', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
+  }
+  :root {
+    --offcanvas-width: 270px;
+    --topNavbarHeight: 69px;
+  }
+  .sidebar-nav {
+    width: var(--offcanvas-width);
+  }
+  .sidebar-link {
+    display: flex;
+    align-items: center;
+  }
+  .sidebar-link .right-icon {
+    display: inline-flex;
+  }
+  .sidebar-link[aria-expanded="true"] .right-icon {
+    transform: rotate(180deg);
+  }
+  @media (min-width: 992px) {
+    body {
+      overflow: auto !important;
+    }
+    main {
+      margin-left: var(--offcanvas-width);
+    }
+    /* this is to remove the backdrop */
+    .offcanvas-backdrop::before {
+      display: none;
+    }
+    .sidebar-nav {
+      -webkit-transform: none;
+      transform: none;
+      visibility: visible !important;
+      height: calc(100% - var(--topNavbarHeight));
+      top: var(--topNavbarHeight);
+    }
+  }
+  /* ///////////////////////////////////////////// */
+  /* ///////////////////////////////////////////// */
+  .logooimg{
+    max-height: 43px;
+    border-radius: 50%;
+  }
+  /* ///////////////////////////////////////////// */
+  .navbar{
+    background-color: #F4F4F8
+    ;
+  
+  }
+  .offcanvas{
+    background-color: #F4F4F8;
+  }
+  .offcanvas ul li span{
+    color:#8B8B8D ;
+    
+  }
+  @media only screen and (min-width:991px){
+    .collapse{
+      padding-left: 70px !important;
+    }
+    .collapse form{
+      margin-left: 70px !important;
+    }
+  }
+  input[type="search"]{
+    border-radius: 10px;
+  }
+  nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+   padding-left: 20px !important;
+   background-color: #FFFFFF;
+  }
+  nav ul li a:hover span{
+    color: #24CAC0 !important;
+
+  }
+  main{
+    background-color: #F7F9FE;
+    margin-bottom: 25px;
+  }
+  /* //////////////////////////////////////////////// */
+  .navbar-nav .logout{
+    margin-top: 190px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #24CAC0;
+    text-align: center;
+    color: #F4F4F8;
+    font-weight: bold;
+    font-size: 18px;
+    box-shadow: none;
+  }
+  .logouttwo{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFFFFF;
+    text-align: center;
+    color:#24CAC0 !important;
+    font-weight: bold;
+    font-size: 18px;
+    box-shadow: none;
+    margin-top: 10px;
+
+  }
+  .fa-bell{
+    color:black !important ;
+  }
+ 
+  .logoicon{
+    width: 32px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    text-align: center;
+    height: 30px;
+    line-height: 31px;
+  }
+  .nav-item a{
+    color: black !important;
+    
+  }
+  .condoctor{
+    background-color: #FFFFFF;
+    width: 100%;
+    padding: 0px 10px 10px 10px;
+    padding-top: 20px;
+    text-align: center;
+    margin: 20px 0px;
+  }
+  
+  .condoctor img{
+    border-radius: 100%;
+    clip-path: circle();
+  }
+  .condoctor i{
+    color: #FFDF00;
+    font-size: 20px;
+  transition:all 2s;
+  }
+  .condoctor:hover{
+    box-shadow: -3px 6px 10px grey;
+  
+  }
+  .condoctor p{
+    font-size: 14px;
+  }
+  /* ////////////////////////////// */
+  /* ////////////////////////////// */
+  /* ////////////////////////////// */
+  /* ////////////////////////////// */
+
+  .divform{
+    background-color: #FFFFFF;
+    box-shadow: -3px 6px 6px grey;
+    padding-bottom: 30px !important;
+    margin-bottom: 15px;
+  }
+  .imgformm img{
+    max-width: 90%;
+}
+.headername img{
+  border: 1px solid #76f17a96;
+  border-radius: 100%;
+}
+.headername h5{
+    color: #122F53;
+}
+.headername p{
+     font-size: 13px;
+ }
+ .formabout p{
+    font-size: 13px;
+    background-color: #F3F3F3;
+    padding: 12px;
+    border-radius: 10px;
+
+ }
+ .formabout .fa-solid{
+    color: #122F53;
+    font-size: 20px;
+ }
+ .divwatch{
+     background-color: #FFFFFF;
+     padding: 12px 15px;
+     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.541);
+     border-radius: 5px;
+ }  
+ .divwatch span{
+     color: #122F53;
+ }
+ .formbuuton button{
+     width: 80%;
+     padding: 10px 20px;
+     font-weight: bold;
+     background-color: #0E63F4;
+     color: #F7F9FE !important;
+ }
+input[type="radio"]{
+  color: #24CAC0;
+}
+.available span{
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: #76F17A;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+.firstcolor{
+  background-color: #FBFBFB;
+}
+.othercolor{
+  background-color: #FFFFFF ;
+}
+/* //////////////////////////////////// */
+.loginorregister {
+  text-align: center;
+  padding-bottom: 20px; 
+}
+.loginorregister .spantwo{
+   background-color: #F7F9FE !important;
+   border-color: black;
+   box-shadow: none;
+   width: 42%;
+}
+.spanone{
+   width: 45%;
+   
+}
+input{
+   
+margin-left: auto !important;    
+box-shadow: none !important;
+outline: none !important;
+
+}
+.submit{
+   width: 60% !important;
+   background-color: #24CAC0 !important;
+   color: #F7F9FE !important;
+   font-size: 20px;
+}
+.submittwo{
+  width: 30% !important;
+ 
+  color: red ;
+  font-size: 20px;
+}
+
+.loginorregister .active{
+    background-color: #24CAC0 !important; 
+    color: #FFFFFF;
+}
+.texttlsblee{
+  color: #122F53;
+  font-weight: bold;
+  font-size: 17px;
+}
+.iinput{
+  background: #F3F3F3 !important;
+
+}
+
+.memucolo{
+  color:#283B6A ;
+  font-weight: 600;
+  letter-spacing: 3px;
+}
+
+
+
+
+
+
+/* //////////////////////////////////////// */
+.pass{
+   position: relative;
+}
+
+.icon{
+   position: absolute;
+   top: 32px;
+   right: 5px;
+}
+
+
+
+
+
+/* /////////////////////////////////////// */
